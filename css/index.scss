@@ -1,0 +1,129 @@
+body{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  margin: auto;
+  background-image: url(../beijing.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.starts{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  margin: auto;
+  background-image: url(../0010.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  z-index:100;
+  h1{
+    text-align: center;
+    font-size: 64px;
+  }
+  .start-btn{
+    cursor: pointer;
+    display: inline-block;
+    width:170px;
+    height:80px;
+    line-height: 80px;
+    font-size: 36px;
+    border-radius: 10px;
+    //background-color: red;
+    position: absolute;
+    top:25%;
+    right:30%;
+    background-image: url(../0012.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+}
+#canvas{
+  border:1px solid black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image:url(../bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.restart,.startAi{
+  cursor: pointer;
+  display: inline-block;
+  width:80px;
+  height:50px;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding:5px 10px;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.start{
+  padding:10px 20px;
+}
+.restart{
+  background-image:url(../index.jpg);
+  background-position: center center;
+  background-size: contain;
+}
+.startAi{
+  background-image:url(../index.jpg);
+  background-position: center center;
+  background-size: contain;
+}
+.startAi.active{
+  box-shadow:1px 1px 5px 1px #000;
+}
+#canvasLeft{
+  //border: 1px solid black;
+  background-color: #00afc7;
+  border-radius: 20px;
+  position: absolute;
+  left:50px;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+#canvasRight{
+  background-color: #00afc7;
+  position: absolute;
+  border-radius: 20px;
+  right:50px;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+#deadline{
+  display: block;
+  position: absolute;
+  //top:0;
+  bottom:30%;
+  left:80px;
+  margin: 0 auto;
+  font-size: 26px;
+  font-weight: bold;
+}
+#deadlines{
+  display: block;
+  position: absolute;
+  //top:0;
+  bottom:30%;
+  right:90px;
+  margin: 0 auto;
+  font-size: 26px;
+  font-weight: bold;
+  color:#fff;
+}
+

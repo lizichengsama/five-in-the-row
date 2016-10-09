@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <div class="starts">
+        <h1>五子棋游戏</h1>
+        <!--<div class="start-btn">开始游戏</div>-->
+        <input type="button" class="start-btn" value="开始游戏">
+    </div>
+    <audio src="music/棋子音效c.mp3"></audio>
+    <!--<div class="start">开始游戏</div>-->
+    <div class="restart">重新开始</div>
+    <div class="startAi">人机对战</div>
+    <canvas width="600" height="600" id="canvas"></canvas>
+    <canvas width="200" height="200" id="canvasLeft"></canvas>
+    <span id="deadline">黑棋计时器</span>
+    <canvas width="200" height="200" id="canvasRight"></canvas>
+    <span id="deadlines">白棋计时器</span>
+</body>
+</html>
